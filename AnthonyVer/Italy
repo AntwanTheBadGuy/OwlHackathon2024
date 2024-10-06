@@ -1,0 +1,13 @@
+public class Italy extends Country {
+
+    // Constructor to initialize Italy-specific values
+    public Italy() {
+        super("Italy", "Southern Europe");
+    }
+
+    // Overriding the getFamousDish method to return Italy's famous dish
+    @Override
+    public String getFamousDish() {
+        return "Pizza"; // Italy's famous dish is Pizza
+    }
+}
