@@ -56,6 +56,66 @@ public class Main {
 
         // Display user progress
         user.displayProgress();
+
+        //Creating a recipe for a cooking lesson from Spain
+        Recipe paellaRecipe = new Recipe("Seafood Paella");
+        paellaRecipe.addIngredient("Olive Oil");
+        paellaRecipe.addIngredient("Onion");
+        paellaRecipe.addIngredient("Bell Peppers");
+        paellaRecipe.addIngredient("Garlic");
+        paellaRecipe.addIngredient("Tomato");
+        paellaRecipe.addIngredient("Bay Leaf");
+        paellaRecipe.addIngredient("Paprika");
+        paellaRecipe.addIngredient("Saffron");
+        paellaRecipe.addIngredient("Salt");
+        paellaRecipe.addIngredient("Pepper");
+        paellaRecipe.addIngredient("White Wine");
+        paellaRecipe.addIngredient("Chicken");
+        paellaRecipe.addIngredient("Rice");
+        paellaRecipe.addIngredient("Fresh Parsley");
+        paellaRecipe.addIngredient("Broth");
+        paellaRecipe.addIngredient("Shrimp");
+        paellaRecipe.addIngredient("Mussels");
+        paellaRecipe.addIngredient("Calamari");
+        paellaRecipe.addIngredient("Peas");
+        paellaRecipe.addIngredient("Lemon Slices");        
+        paellaRecipe.addStep("Sauté: Add olive oil to a skillet over medium heat. Add onion, bell peppers, and garlic and sauté 
+                            until onion is translucent. Add chopped tomato, bay leaf, paprika, saffron, salt, and pepper. Stir 
+                            and cook for 5 minutes.");
+        paellaRecipe.addStep("Add white wine. Cook for 10 minutes.");
+        paellaRecipe.addStep("Add chicken & rice. Add chopped parsley and cook for 1 minute.");
+        paellaRecipe.addStep("Add broth. Pour the broth slowly all around the pan and jiggle the pan to get the rice into an 
+                            even layer. (Do not stir the mixture going forward!). Bring mixture to a boil. Reduce heat to 
+                            medium low. Give the pan a gentle shake back and forth once or twice during cooking.");
+        paellaRecipe.addStep("Cook uncovered: Cook paella uncovered for 15-18 minutes, then nestle the shrimp, mussels and 
+                            calamari into the mixture, sprinkle peas on top and continue to cook (without stirring) for 
+                            about 5 more minutes. Watch for most of the liquid to be absorbed and the rice at the top 
+                            nearly tender. (If for some reason your rice is still uncooked, add ¼ cup more water or broth 
+                            and continue cooking).");
+        paellaRecipe.addStep("Cover and let rest. Remove pan from heat and cover pan with a lid or tinfoil. Place a kitchen 
+                            towel over the lid and allow to rest for 10 minutes.");
+        paellaRecipe.addStep("Serve. Garnish with fresh parsley and lemon slices. Serve.");
+
+        //MD/Paella: rice, saffron, olive oil, meat, smoked paprika, green beans
+
+        //Spanish; Tortilla
+        paellaRecipe.addIngredient("Eggs");
+        paellaRecipe.addIngredient("Potatoes");
+        paellaRecipe.addIngredient("Onions");
+
+        paellaRecipe.addStep("Place 1 tablespoon of olive oil in a large non-stick skillet and heat over medium-low heat.");
+        paellaRecipe.addStep("Add onions and cook until soft, about 5 to 6 minutes before adding potatoes and more olive oil. 
+                            Stir together and continue cooking until potatoes are soft.");
+        paellaRecipe.addStep("Whisk eggs together in a medium-sized bowl. Add the potatoes and onions to the eggs and mix. 
+                            Season with salt and pepper. Add more olive oil to the pan and pour the mixture in. Cover with a 
+                            lid and cook until eggs are browning on the edge.");
+        paellaRecipe.addStep("To flip the tortilla, place a plate larger than the skillet on top, turn over, and then carefully 
+                            slide the tortilla back into the pan to finish cooking. Cook your desired doneness of the eggs, 
+                            slightly runny is traditional.");
+        paellaRecipe.addStep("Flip the tortilla out onto a plate and set aside to cool for a couple of minutes before slicing 
+                            into wedges.");
+        paellaRecipe.addStep("Serve warm, cold or at room temperature.");
+
     }
 }
 
