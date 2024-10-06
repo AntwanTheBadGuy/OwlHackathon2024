@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japan</title>
+
+    <style>
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin: -7px 10;
+      }
+    </style>
+    <style>
+      h1 {
+        text-align: left;
+        text-size-adjust: 70px;
+        font-size: 40px;
+        margin-left: 10px;
+      }
+    </style>
+    <style>
+        h2 {
+         text-align: left;
+        text-size-adjust: 50px;
+        font-size: 40px;
+        margin-left: 665px;
+        top: 200px;
+        bottom: 9px;
+
+        }
+    </style>
+
+    <style>
+      .blue-block {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(0, 0, 255, 0.5);
+        border: 2px solid #000;
+      }
+    </style>
+
+    <style>
+      body {
+        position: relative;
+      }
+
+      .color-block {
+        width: 800px; /* Width of the block */
+        height: 640px; /* Height of the block */
+        background-color: rgba(255, 87, 87, 0.5);
+        color: white; /* Text color */
+        display: flex; /* Use flexbox for centering */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        font-size: 24px; /* Font size */
+        border-radius: 8px; /* Rounded corners */
+       position: absolute; /* Absolute positioning */
+            top: 50px; /* Move down from the top */
+            left: 750px; /* Move to the right */
+            z-index: 1; /* Set z-index to be behind the text */;
+      }
+
+      .text-in-front {
+            position: absolute; /* Absolute positioning */
+            top: 90px; /* Adjust position from top */
+            left: 8px; /* Adjust position from left */
+            font-size: 16px; /* Font size */
+            color: white; /* Text color */
+            z-index: 2; /* Higher z-index to ensure it's in front of the color block */
+        }
+    </style>
+
+    <style>
+      body {
+        position: relative;
+      }
+
+      .color-bloc {
+        width: 300px;
+        height: 600px;
+        background-color: rgba(255, 87, 87, 0.3);
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 8px;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+      }
+    </style>
+
+    <style>
+      .button {
+        width: 300px;
+        height: 600px;
+        top: 50px;
+        left: 90px;
+      }
+      .block-one
+ {
+     width: 380px;
+     height: 200px;
+     background-color: rgb(162, 162, 187);
+     align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 8px;
+        position: absolute;
+        top: 60px;
+        left: 765px;
+     }
+     .block-two
+ {
+     width: 380px;
+     height: 200px;
+     background-color: rgb(162, 162, 187);
+     align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 8px;
+        position: absolute;
+        top: 60px;
+        left: 1160px;
+     }
+     .block-three
+ {
+     width: 380px;
+     height: 200px;
+     background-color: rgb(162, 162, 187);
+     align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 8px;
+        position: absolute;
+        top: 270px;
+        left: 1160px;
+        
+     }
+     .block-four
+ {
+     width: 380px;
+     height: 200px;
+     background-color: rgb(162, 162, 187);
+     align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 8px;
+        position: absolute;
+        top: 270px;
+        left: 765px;
+     }
+     .block-five
+ {
+     width: 380px;
+     height: 200px;
+     background-color: rgb(162, 162, 187);
+     align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 8px;
+        position: absolute;
+        top: 480px;
+        left: 1160px;
+     }
+     .block-six 
+ {
+     width: 380px;
+     height: 200px;
+     background-color: rgb(162, 162, 187);
+     align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 8px;
+        position: absolute;
+        top: 480px;
+        left: 765px;
+     }
+    .text-in-front-now {
+font-size: 16px; /* Font size */
+ color: rgb(137, 27, 27); /* Text color */
+ z-index: 8; /* Higher z-index to ensure it's in front of the color block */
+
+
+
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1>INGREDIENTS</h1>
+    <h2>RECIPES</h2>
+    <ul>
+         <div class="text-in-front">
+      <li>
+        <input type="checkbox" id="Sugar" />
+        <label for="Sugar">Sugar</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Olive Oil" />
+        <label for="Olive Oil">Olive Oil</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Pork" />
+        <label for="Pork">Pork</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Beef" />
+        <label for="Beef">Beef</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Chicken" />
+        <label for="Chicken">Chicken</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Curry Powder" />
+        <label for="Curry Powder">Curry Powder</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Vegetables" />
+        <label for="Vegetables">Vegetables</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Mirin" />
+        <label for="Mirin">Mirin</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Soy Sauce" />
+        <label for="Soy Sauce">Soy Sauce</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Wooden Skewers" />
+        <label for="Wooden Skewers">Wooden Skewers</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Panko" />
+        <label for="Panko">Panko</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Scallions" />
+        <label for="Scallions">Scallions</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Sake" />
+        <label for="Sake">Sake</label>
+      </li>
+      <br />
+      <li>
+        <input type="checkbox" id="Tonkatsu Sauce" />
+        <label for="Tonkatsu Sauce">Tonkatsu Sauce</label>
+      </li>
+    </ul>
+    </div>
+    <div class = "text-in-front-now">
+    <div class="color-block"><!--Add text here--></div>
+    <div class="color-bloc"></div>
+    <div class="block-one">Curry Rice</div>
+    <div class="block-two">Gyudon</div>
+    <div class="block-three">Yakitori Chicken </div>
+    <div class="block-four">Shogayak</div>
+    <div class="block-five">Tonkatsu</div>
+    <div class="block-six">Beef Negimaki</div>
+    </div>
+  </body>
+</html>
